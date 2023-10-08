@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Add Bootstrap CSS link -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Add your custom CSS file -->
+  <link rel="stylesheet" href="styles.css">
+  <title>Grocery Inventory</title>
+</head>
+<body>
+  <div class="container mt-5">
+    <h1 class="display-4">Grocery Inventory Management</h1>
+    <form id="addItemForm" class="mb-3">
+      <div class="form-group">
+        <label for="itemName">Item Name:</label>
+        <input type="text" class="form-control" id="itemName" name="itemName" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Add Item</button>
+    </form>
+    <ul id="inventoryList" class="list-group">
+      <!-- Display inventory items here -->
+    </ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
